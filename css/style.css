@@ -1,3 +1,41 @@
-.titre{
+@media (max-width: 800px) {
+html{
+    background-color: black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15%;
+    background-color: grey;
+    border-color: blue;
+    border-width: 20px;
+    border-style: double;
+    padding: 5%;
+}
+.titre-du-site{
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .listeOptionClient{
+        border: 2%, solid;
+        border-radius: 20%;
+        height: 2%;
+        width: 100%;
+    padding: 15%;
+    background-color: yellow;
+}
+.emplacement-geographique{
+    background-color:#EAEAEA;
+}
+.carte-Menu img{
+    width: 100%;
+}
+.fa-solid {
     color: red;
+}
+.fa-star{
+     color: red;
+}
 }
