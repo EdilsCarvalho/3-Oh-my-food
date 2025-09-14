@@ -1,41 +1,102 @@
 @media (max-width: 800px) {
-html{
-    background-color: black;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    margin: 0 15%;
-    background-color: grey;
-    border-color: blue;
-    border-width: 20px;
-    border-style: double;
-    padding: 5%;
-}
-.titre-du-site{
-    color: brown;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-    .listeOptionClient{
+    html {
+        background-color: black;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0 15%;
+        background-color: grey;
+        border-color: blue;
+        border-width: 20px;
+        border-style: double;
+        padding: 5%;
+    }
+
+    .titre-du-site {
+        color: brown;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .listeOptionClient {
         border: 2%, solid;
         border-radius: 20%;
         height: 2%;
         width: 100%;
-    padding: 15%;
-    background-color: yellow;
-}
-.emplacement-geographique{
-    background-color:#EAEAEA;
-}
-.carte-Menu img{
+        padding: 15%;
+        background-color: yellow;
+    }
+
+    .emplacement-geographique {
+        background-color: #EAEAEA;
+    }
+
+    img {
     width: 100%;
-}
-.fa-solid {
-    color: red;
-}
-.fa-star{
-     color: red;
-}
+    height: 174px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    }
+
+    .carte-Menu img {
+        display: block;
+    }
+
+    .fa-solid {
+        color: red;
+    }
+
+    .fa-star {
+        color: red;
+    }
+
+    .carte-Menu {
+        position: relative;
+        display: inline-block;
+    }
+
+    .carte-Menu .nouveaute {
+        position: absolute;
+        top: 5%;
+        left: 70%;
+        color: white;
+        background-color: #99E2D0;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .numberOfTheList{
+         background-color: #a259ff; 
+         color: white; 
+         font-weight: bold; 
+         border-radius: 50%; 
+         width: 24px; 
+         height: 24px; 
+         display: flex; 
+         align-items: center; 
+         justify-content: center; 
+         margin-right: 12px;
+    }
+
+    .fonctionnement_List{
+        list-style: none; 
+        counter-reset: step; 
+        padding-left: 0;
+    }
+    .fonctionnement_list_li{
+        display: flex; 
+        flex-direction: row;
+        align-items: center; 
+        background-color: #f3f3f3; 
+        padding: 10px 16px;
+        border-radius: 16px;
+    }
+
+
 }
