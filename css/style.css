@@ -6,9 +6,8 @@
     body {
         display: flex;
         flex-direction: column;
-        margin: 0 5%;
         background-color: white;
-        padding: 1%;
+        margin: 0;
     }
 
     .titre-du-site {
@@ -31,11 +30,16 @@
         background-color: #EAEAEA;
     }
 
-    .section-reservation {
-        background-color: #EAEAEA;
-    }
+        .section-reservation {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
     .section-restaurants {
-        width: 90%;
+        width: 100%;
     }
     .listeOptionClient {
         border: 2%, solid;
@@ -57,6 +61,7 @@
 
     .carte-Menu img {
         display: block;
+
     }
 
     .fa-solid {
@@ -70,7 +75,8 @@
     .carte-Menu {
         position: relative;
         display: inline-block;
-        width: 80%;
+        width: 100%;
+        justify-content: center;
     }
 
     .carte-Menu .nouveaute {
@@ -98,10 +104,11 @@
     }
 
     .fonctionnement_List{
-        list-style: none; 
-        counter-reset: step; 
-        padding-left: 0;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
     }
+
     .fonctionnement_list_li{
         display: flex; 
         flex-direction: row;
@@ -109,8 +116,70 @@
         background-color: #f3f3f3; 
         padding: 10px 16px;
         border-radius: 16px;
+        justify-content: space-around;
+    }
+    .button-de-exploration{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 218px;
+    height: 50px;
+    margin-top: 27px;
+    padding: 0px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(-161deg, #9356DC 0%, #FF79DA 100%);
+    transition: background-color 300ms ease;
     }
 
+.link-vers-formulaire-a-creer{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    color: white;
+}
+    .discriptif-menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        }
+    footer{
+        background-color: black;
+        color: white;
+    }
 
+    a{
+    text-decoration: none; 
+    text-decoration-color: none;
+    }
 
+    .info-sur-le-menu{
+        color: black;
+    }
+
+     .button-de-exploration {
+            display: inline-block; 
+            background-color: #e74c3c;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+    .block-icon-text{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 25px;
+
+    }
 }
