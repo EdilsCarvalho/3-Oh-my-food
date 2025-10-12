@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ohmyfood</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/restaurants.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+
+
+<!-- Début Header   *********************************************** -->
+
+ <div class="main-container">
+
+        <header class="header">
+        <a class="header__icon-link" href="../index.html"> 
+                <i class="header__icon-return fa-solid fa-arrow-left"></i>
+        </a>
+        <span>ohmyfood</span>
+        <img class="header__logo" src="../images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood">
+    </header>
+
+    <main>
+   
+
+        <div class="restau__image">
+                <img src="../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Image d'un restaurant">
+        </div>
+
+        <div class="restau--background">
+            <section class="restau">
+                <div class="restau__title">
+                    <h1>À la française</h1>       
+                    <div class="restau__title--like">
+                        <input type="checkbox" class="restau__title__like--toggle" id="like-toggle1">
+                        <label for="like-toggle1" class="restau__title__like--icon">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </label>
+                    </div>
+                </div>
+                <article class="restau__carte">
+                    <div class="restau__carte-title">
+                        <h2>ENTRÉES</h2>
+                    </div>
+
+                    <div class="carte">
+                        <label class="carte__plat"> 
+                            <input type="checkbox" class="toggle-plat">                        
+                            <span class="carte__plat-description">
+                                <b>Tartare de poulpe acidulé</b>
+                                <em>Aux zestes d'orange</em>
+                            </span>
+                            <span class="carte__plat-price">
+                                <em>25€</em>
+                            </span>
+                             <span class="carte__plat-select">
+                                <span class="carte__plat-select-check">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>   
+                            </span>
+                        </label> 
+
+                        <label class="carte__plat">
+                            <input type="checkbox" class="toggle-plat">
+                            <span class="carte__plat-description">
+                                <b>Velouté de légumes d'antan</b>
+                                <em>Carotte, panais, topinambour</em>
+                            </span>
+                            <span class="carte__plat-price">
+                                <em>35€</em>
+                            </span>
+                            <span class="carte__plat-select">
+                               <span class="carte__plat-select-check">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                            </span> 
+                        </label>
+
+                        <label class="carte__plat">  
+                            <input type="checkbox" class="toggle-plat">                      
+                            <span class="carte__plat-description">
+                                <b>Soupe à l'oignon</b>
+                                <em>Revisitée</em>
+                            </span>
+                            <span class="carte__plat-price">
+                                <em>20€</em>
+                            </span>
+                        
+                            <span class="carte__plat-select">
+                                <span class="carte__plat-select-check">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                            </span>  
+                        </label>                     
+                    </div>          
+                </article>
+
+                <article class="restau__carte">
+                    <div class="restau__carte-title">
+                        <h2>PLATS</h2>
+                    </div>
+
+                    <div class="carte">
+                        <label class="carte__plat">
+                            <input type="checkbox" class="toggle-plat">
+                            <span class="carte__plat-description">
+                                <b>Coquilles Saint-Jacques</b>
+                                <em>Accompagnées d'une purée de panais</em>
+                            </span>
+                            <span class="carte__plat-price">
+                                <em>40€</em>
+                            </span>
+                            <span class="carte__plat-select">
+                                <span class="carte__plat-select-check">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>   
+                            </span>
+                        </label>
+                        
+                        <label class="carte__plat">
+                            <input type="checkbox" class="toggle-plat">
+                            <span class="carte__plat-description">
+                                <b>Magret de canard</b>
+                                <em>Et parmentier de pommes de terre</em>
+                            </span>
+                            <span class="carte__plat-price">
+                                <em>35€</em>
+                            </span>                       
+                            <span class="carte__plat-select">
+                                <span class="carte__plat-select-check">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                            </span> 
+                        </label>
+
+                        <label class="carte__plat">  
+                            <input type="checkbox" class="toggle-plat">                      
+                            <span class="carte__plat-description">
+                                <b>Pigeonneau d’Ille-et-Vilaine</b>
+                                <em>Sur son lit de gnocchis aux légumes</em>
+                            </span>
+                            <span class="carte__plat-price">
+                                <em>44€</em>
+                            </span>
+                        
+                            <span class="carte__plat-select">
+                                <span class="carte__plat-select-check">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                            </span>  
+                        </label>                     
+                    </div>          
+                </article>
+
+                <article class="restau__carte restau__carte3">
+                    <div class="restau__carte-title">
+                        <h2>DESSERTS</h2>
+                    </div>
+
+                    <div class="carte">
+                        <label class="carte__plat">
+                            <input type="checkbox" class="toggle-plat">
+                            <span class="carte__plat-description">
+                                <b>Pétales de violettes glacés</b>
+                                <em>Et purée de noisettes</em>
+                            </span>
+
+                            <span class="carte__plat-price">
+                                <em>18€</em>
+                            </span>
+
+                            <span class="carte__plat-select">
+                                <span class="carte__plat-select-check">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>   
+                            </span>
+                        </label>
+
+                        <label class="carte__plat">
+                            <input type="checkbox" class="toggle-plat">
+                            <span class="carte__plat-description">
+                                <b>Fondant au chocolat</b>
+                                <em>Revisité</em>
+                            </span>
+                            <span class="carte__plat-price">
+                                <em>22€</em>
+                            </span>
+                        
+                            <span class="carte__plat-select">
+                                <span class="carte__plat-select-check">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                            </span> 
+                        </label>
+
+                        <label class="carte__plat"> 
+                            <input type="checkbox" class="toggle-plat">                       
+                            <span class="carte__plat-description">
+                                <b>Millefeuille croustillant</b>
+                                <em>Myrtilles et pâte d’amande</em>
+                            </span>
+                            <span class="carte__plat-price">
+                                <em>23€</em>
+                            </span>
+                        
+                            <span class="carte__plat-select">
+                                <span class="carte__plat-select-check">
+                                    <i class="fa-solid fa-check"></i>
+                                </span>
+                            </span>  
+                        </label>                     
+                    </div>          
+                </article>
+                <div class="restau__commande">
+                    <div class="restau__commande-btn" onclick="location.href='#ancre_restaurants'">Commander</div>
+               </div>
+               
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <span class="footer--logo">ohmyfood</span>
+        <nav class="navbar">
+            <a href="#" class ="navbar__link navbar__link--repas">
+                <i class="fa-solid fa-utensils"></i>
+                <span>Proposez un restaurant</span></a>
+            <a href="#" class ="navbar__link navbar__link--partenaire">
+                <i class="fa-solid fa-handshake-angle"></i>
+                <span>Devenir partenaire</span></a>
+            <a href="#" class ="navbar__link navbar__link--mentions">
+                <span>Mentions légales</span></a>
+            <a href="mailto:contact@ohmyfood.fr" class ="navbar__link navbar__link--contact">
+                <span>Contact</span></a>
+        </nav>
+    </footer>
+</div>
+
+</body>
+
+</html>

@@ -101,6 +101,7 @@
          align-items: center; 
          justify-content: center; 
          margin-right: 12px;
+
     }
 
     .fonctionnement_List{
@@ -138,20 +139,28 @@
     transition: background-color 300ms ease;
     }
 
-.link-vers-formulaire-a-creer{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    color: white;
-}
     .discriptif-menu{
         display: flex;
         flex-direction: row;
         align-items: center;
         }
-    footer{
+    footer {
         background-color: black;
         color: white;
+    }
+    .choix-footer{
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .titre_footer{
+        font-family: "Shrikhand";
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 20px;
     }
 
     a{
@@ -163,7 +172,7 @@
         color: black;
     }
 
-     .button-de-exploration {
+    .button-de-exploration {
             display: inline-block; 
             background-color: #e74c3c;
             color: white;
@@ -180,6 +189,20 @@
             flex-direction: row;
             justify-content: space-around;
             gap: 25px;
-
+        }
+    .links-du-footer{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+    }
+    .link-vers-formulaire-a-creer{
+        color: white;
+    }
+        .link-vers-envoi-mail-a-creer{
+        color: white;
+    }
+        .link-vers-page-blabla-a-creer{
+        color: white;
     }
 }
