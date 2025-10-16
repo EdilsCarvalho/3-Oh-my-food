@@ -293,10 +293,30 @@
         .link-vers-page-blabla-a-creer{
         color: white;
     }
-.coeur_rouge{
+.section-restaurants .carte-Menu .discriptif-menu .label-coeur-jaime i {
+  font-size: 24px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*background-color: yellow;*/
+}
+
+.section-restaurants .carte-Menu .discriptif-menu .fa-solid {
+  opacity: 0;
+  background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
+}
+.section-restaurants .carte-Menu .discriptif-menu .fa-regular {
+  opacity: 1;
+  background: transparent;
+}
+
+.section-restaurants .carte-Menu .discriptif-menu .card__like--toggle:checked + .fa-regular{
     opacity: 0;
 }
-.coeur_transparent{
+.section-restaurants .carte-Menu .discriptif-menu .card__like--toggle:checked + .fa-solid{
     opacity: 1;
 }
+
 }
