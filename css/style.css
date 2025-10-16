@@ -138,6 +138,94 @@
     background: linear-gradient(-161deg, #9356DC 0%, #FF79DA 100%);
     transition: background-color 300ms ease;
     }
+.section-fonctionnement{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        
+        .section-fonctionnement {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section-fonctionnement h2 {
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+            color: #2c3e50;
+            text-align: center;
+        }
+        
+        .fonctionnement_List {
+            list-style: none;
+            counter-reset: fonction-counter;
+            padding: 0;
+        }
+        
+        .fonctionnement_list_li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background-color: #f6f6f6;
+            border-radius: 20px;
+            padding: 15px 25px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .numberOfTheList {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background-color: #9356dc;
+            color: white;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-left: -37px;
+            flex-shrink: 0;
+        }
+        
+        .icone_store{
+            color: #9356dc important;
+        }
+        .block-icon-text {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-grow: 1;
+        }
+        
+        .block-icon-text i {
+            font-size: 1.2rem;
+            color: #7e7e7e;
+            width: 20px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        
+        .block-icon-text span {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.05rem;
+        }
+        
+
+
 
     .discriptif-menu{
         display: flex;
@@ -205,4 +293,10 @@
         .link-vers-page-blabla-a-creer{
         color: white;
     }
+.coeur_rouge{
+    opacity: 0;
+}
+.coeur_transparent{
+    opacity: 1;
+}
 }
