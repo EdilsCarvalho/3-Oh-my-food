@@ -364,5 +364,20 @@ flex-direction: column;
 display: flex;
 flex-direction: column;
 }
+.titre-entree{
+font-family: Roboto;
+font-weight: 300;
+font-size: 16px;
+line-height: 100%;
+text-transform: uppercase;
+}
+.titre-entree::after{
+  content: "";
+  display: block;
+  width: 40px;
+  margin-top: 3px;
+  border-bottom: 3px solid #99E2D0;
+}
+
 
 }
