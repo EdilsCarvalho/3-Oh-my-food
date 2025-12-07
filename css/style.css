@@ -391,16 +391,14 @@ color: black;
 }
 .details-proposition-plat{
 font-size: 15.04px;
-color: black;    
+color: black;  
 }
-.toggle-proposition:checked ~ .details-proposition-plat{
-    transform: translateX(-59px);
-    transition: transform 300ms ease;
+
+.toggle-proposition{
+    display: none;
 }
-.toggle-proposition:checked ~ .carte__plat-select {
-    transform: translateX(0);
-}
-.proposition_n .carte__plat-select {
+
+.carte__plat-select {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -416,13 +414,79 @@ color: black;
   transform: translateX(100%);
   transition: transform 300ms ease;
 }
-.carte__plat-select-check {
-  font-size: 20px;
-  color: #99E2D0;
-  border-radius: 25px;
-  background-color: white;
-}
-  .toggle-proposition-n:checked ~ .details-proposition.details-proposition-plat, .toggle-proposition-n:checked ~ .details-proposition.prix {
+
+
+
+
+  .toggle-proposition:checked ~ .carte__plat-select {
+        transform: translateX(0);
+          }
+ 
+  /*
+  .toggle-plat:checked ~ .carte__plat-price {
+    transform: translateX(-59px);
+    transition: transform 300ms ease;
+  }
+  .toggle-plat:checked ~ .carte__plat-description b, .toggle-plat:checked ~ .carte__plat-description em {
     width: calc(100% - 59px);
   }
+*/
+
+
+
+
+
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 340px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card-info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-info p {
+  margin: 4px 0 0;
+  color: #6e6e6e;
+  font-size: 14px;
+}
+
+.card-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #c6eae3;
+  padding: 10px 14px;
+  border-radius: 12px;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.check {
+  background: #ffffff;
+  color: #65c1aa;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+
+
 }
